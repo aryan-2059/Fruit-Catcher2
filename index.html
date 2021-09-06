@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script>
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+  apiKey: "AIzaSyBZ7UqiCFWaIyDtUMmPYij7x9hxR6EWjKk",
+  authDomain: "mutiplayer-car-race-g.firebaseapp.com",
+  databaseURL: "https://mutiplayer-car-race-g-default-rtdb.firebaseio.com",
+  projectId: "mutiplayer-car-race-g",
+  storageBucket: "mutiplayer-car-race-g.appspot.com",
+  messagingSenderId: "765723933962",
+  appId: "1:765723933962:web:2e17629a1d6d5201c88ef3",
+  measurementId: "G-L7DN7Q8M2B"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!--Add Your JS files here -->
+    <script src="js/player.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
